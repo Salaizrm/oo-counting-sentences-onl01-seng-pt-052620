@@ -15,6 +15,7 @@ class String
   end
 
   def count_sentences
-    self.length
+    self.length = total_length
+    total_length
   end
 end
